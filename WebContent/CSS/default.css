@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+body {
+	margin: 0px;
+	font-family: "微软雅黑";
+}
+
+@media all (max-width :986px) and (min-device-width:1024px) {
+	.container {
+		width: 700px;
+		margin: 0 auto;
+	}
+}
+
+@media all and (min-device-width:1200px) {
+	.container {
+		width: 1170px;
+		margin: 0 auto;
+	}
+	#menu ul li a {
+		font-size: 18px;
+	}
+}
+
+@media screen and (min-device-width:1900px) {
+	.container {
+		width: 1800px;
+		margin: 0 auto;
+	}
+	#menu ul li a {
+		font-size: 22px;
+	}
+}
+
+#header {
+	height: 100px;
+}
+
+#header div {
+	display: inline-flex;
+	vertical-align: middle;
+	line-height: 100px;
+	text-align: center;
+}
+
+#logo {
+	padding-left: 20px;
+}
+
+#menu ul {
+	list-style: none;
+	margin: 0px;
+	line-height: 100px;
+}
+
+#menu ul li {
+	float: left;
+	margin-right: 20px;
+}
+
+#menu ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.login, .signup {
+	color: white;
+	width: 100px;
+	height: 40px;
+	border: 0px;
+	cursor: pointer;
+	font-size: 16px;
+	border-radius: 3px;
+}
+
+.login {
+	background-color: #00aeef;
+	margin-right: 20px;
+}
+
+.signup {
+	background-color: grey;
+}
+
+.signup:hover {
+	background-color: #00aeef;
+}
+
+.how-to-work {
+	margin: 40px 0 80;
+	text-align: center;
+}
+
+.how-to-work div a {
+	color: black
+}
+
+.howwork {
+	width: 250px;
+	padding: 50px 0 70px;
+	border-bottom: solid #00aeef 3px;
+	margin: 20px;
+	display: inline-block;
+}
+
+.howwork:hover {
+	background-color: #00aeef;
+}
+
+.howwork h3 {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.page-title {
+	font-weight: 800;
+	font-size: 25px;
+	text-align: center;
+}
+
+.page-title span {
+	color: #00adef;
+}
+
+table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+.table {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+
+.tb-logo {
+	width: 70px;
+}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td,
+	.table>tbody>tr>td, .table>tfoot>tr>td {
+	vertical-align: middle;
+	border-top: 0px;
+	padding: 15px;
+}
+
+.table tr td h4 {
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.job-type {
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.table>tbody>tr>td.tbl-logo {
+	padding-right: 0px;
+}
+
+.table tr td a {
+	color: WHITE;
+	background-color: #00AEEF;
+	padding: 12px 15px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.tb-line {
+	background-color: #f9f9f9;
+}
+
+.tb-line2 {
+	background-color: #F4FFFF;
+}
+
+#footer {
+	background-color: black;
+	color: white;
+	font-size: 12px;
+	padding: 12px;
+	text-align: center;
+	border-top: 4px solid #00AEEF;
+}
+
+#copyright {
+	text-align: center;
+}
+
+#footer div ul li a {
+	text-decoration: none;
+	color: gray;
+	font-size: 14px;
+}
+
+#usefulLink ul {
+	list-style: none;
+}
+
+#sitemap ul {
+	list-style: none;
+}
+
+.footer-column {
+	width: 33.3%;
+	float: left;
+	font-size: 14px;
+}
